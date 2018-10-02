@@ -31,13 +31,13 @@ You should also use:
 
 when you are done with an image. So it goes away. You can check out how all this is implemented in `src/load_image.c`. You probably shouldn't change anything in this file. We use the `stb_image` libary for the actual loading and saving of jpgs because that is, like, REALLY complicated. I think. I've never tried. Anywho....
 
-You'll be modifying the file `src/process_image.c`. We will build the library using `cmake` and `make`. We advise to use Linux or MacOS for the homework since setting up cmake and make will be simpler. Online resources should be enough to get things going, but if you get stuck the TAs are there to help you.
+You'll be modifying the file `src/process_image.c`. We will build the library using `cmake` and `make`. We advise to use Linux or MacOS for the homework since setting up cmake and make will be simpler. For windows, first install cmake and look at this [video](https://www.youtube.com/watch?v=gYmgbqGfv-8) to use cmake with Visual Studio. Online resources should be enough to get things going, but if you get stuck the TAs are there to help you.
 
 First, go to the folder `build` and edit the `CMakeCache.txt` file as follows:
 
     1) Replace `/Users/binditachaudhuri/Desktop/hw0/build` and `/Users/binditachaudhuri/Desktop/hw0` with your `build` and its parent folder path at all places.
 
-    2) Write the path for your machine's C and C++ compilers at the variables `CMAKE_C_COMPILER:FILEPATH=`  and `CMAKE_CXX_COMPILER:FILEPATH=` respectively. Linux uses GNU C++ compiler while MacOS uses XCode C++ compiler. On Mac, I had to first do `xcode-select --install` and use `xcrun -find cc` and `xcrun -find c++` respectively to get the path for C and C++ compilers.
+    2) Write the path for your machine's C and C++ compilers at the variables `CMAKE_C_COMPILER:FILEPATH=`  and `CMAKE_CXX_COMPILER:FILEPATH=` respectively. Linux uses GNU C++ compiler while MacOS uses XCode C++ compiler. On Mac, I had to first do `xcode-select --install` and use `xcrun -find cc` and `xcrun -find c++` respectively to get the path for C and C++ compilers. For Linux, the default compiler paths are `/usr/bin/gcc` and `/usr/bin/g++` respectively.
 
 Then open the terminal, go to the `build` folder and run:
 

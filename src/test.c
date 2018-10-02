@@ -45,9 +45,9 @@ void test_set_pixel(){
     TEST(same_image(im, d));
 
     // 1-2. Getting and setting pixels
-    image im2 = load_image("data/dog.jpg");
-    for (int i=0; i<im2.w; i++)
-        for (int j=0; j<im2.h; j++)
+    image im2 = load_image("data/dog.jpg"); int i, j;
+    for (i=0; i<im2.w; i++)
+        for (j=0; j<im2.h; j++)
             set_pixel(im2, i, j, 0, 0);
     save_image(im2, "output/set_pixel_result");   
 }
