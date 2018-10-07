@@ -224,7 +224,7 @@ Hey that's exciting! Play around with it a little bit, see what you can make. No
 
 ## 8. A small amount of extra credit ##
 
-Implement `void scale_image(image im, int c, float v);` to scale a channel by a certain amount. This will give us better saturation results. Note, you will have to add the necessary lines to the header and python library, it should be very similar to what's already there for `shift_image`. Now if we scale saturation by `2` instead of just shifting it all up we get much better results:
+Implement `void scale_image(image im, int c, float v);` to scale a channel by a certain amount. This will give us better saturation results. Note, you will have to add the necessary lines to the header file(s), it should be very similar to what's already there for `shift_image`. Now if we scale saturation by `2` instead of just shifting it all up we get much better results:
 
     image im = load_image("data/dog.jpg");
     rgb_to_hsv(im);
