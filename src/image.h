@@ -18,6 +18,7 @@ void rgb_to_lch(image im);
 void lch_to_rgb(image im);
 void shift_image(image im, int c, float v);
 void clamp_image(image im);
+void scale_image(image im, int c, float v);
 
 
 // Loading and saving

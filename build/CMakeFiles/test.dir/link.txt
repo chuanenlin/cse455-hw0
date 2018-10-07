@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test.dir/src/test.c.o  -o test libuwimg.dylib -lm 
+/usr/bin/cc   -rdynamic CMakeFiles/test.dir/src/test.c.o  -o test -Wl,-rpath,"/home/david/UW/CSE 455/cse455_hw0/build" libuwimg.so -lm 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/volodymyrloyko/svet-solutions/cse455-hw/0/src/test.c" "/Users/volodymyrloyko/svet-solutions/cse455-hw/0/build/CMakeFiles/test.dir/src/test.c.o"
+  "/home/david/UW/CSE 455/cse455_hw0/src/test.c" "/home/david/UW/CSE 455/cse455_hw0/build/CMakeFiles/test.dir/src/test.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/volodymyrloyko/svet-solutions/cse455-hw/0/build/CMakeFiles/uwimg.dir/DependInfo.cmake"
+  "/home/david/UW/CSE 455/cse455_hw0/build/CMakeFiles/uwimg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
